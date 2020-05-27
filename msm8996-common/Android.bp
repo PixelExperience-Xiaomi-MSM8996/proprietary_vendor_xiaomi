@@ -44,9 +44,6 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		android_arm: {
-			srcs: ["proprietary/lib/libbtconfigstore.so"],
-		},
 		android_arm64: {
 			srcs: ["proprietary/lib64/libbtconfigstore.so"],
 		},
